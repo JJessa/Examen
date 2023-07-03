@@ -105,8 +105,12 @@
   }
 
   @media (max-width: 760px) {
+
+    .title-h1 {
+      font-size: 1.8rem;
+    }
     .imagen-home {
-      width: 25rem;
+      width: 20rem;
       height: 30rem;
     }
   
@@ -115,7 +119,11 @@
       width: 75vw;
     }
   }
-  
+  .goUp {
+   
+    border: .2rem solid #7A005C;
+    
+  }
   @media (max-width: 1300px) {
     .parent-container {
       display: block;
