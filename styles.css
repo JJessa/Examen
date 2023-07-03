@@ -1,0 +1,19 @@
+
+.navbar {
+    font-size: larger;
+  }
+
+  .navbar-brand {
+    font-size: xx-large;
+  }
+
+  .bg-image {
+      background-image: url(./images/virtual_home.jpg);   
+      background-repeat: no-repeat; 
+    }
+  
+  .title-h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+   
