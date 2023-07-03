@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>VirtualXperience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>       
+        <nav class="navbar navbar-expand-lg navbar-dark bg-image p-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.com">VirtualXperience</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#">Login</a>
+                </div>
+              </div>
+            </div>
+          </nav>        
+    </header>
+
+    <div class="contenedor">
+        <h1 id="title">Formulario de contacto</h1>
+        
+        <p id="description">Si quieres más información, puedes ponerte en contacto con nosotros a través de este formulario:</p>
+        </div>
+        
+        <div class="contenedor2">
+        <form action="/" method="get" id="survey-form">
+            
+                <p><label id="name-label" for="name">Nombre
+                <input id="name" name="name" type="text" required placeholder="Paco">
+                </label></p>
+                
+                <p><label id="email-label" for="email">Email 
+                <input id="email" name="email" type="email" required placeholder="Paco@paco.com">
+                </label></p>
+                
+                <p><label id="number-label" for="number">Edad
+                <input id="number" name="number" type="number" required placeholder="23" min="18" max="99">
+                </label></p>
+                
+                <p>¿Qué es lo que más te gusta de hacer ejercicio?</p>
+                <select id="dropdown" name="motivacion" class="form-control" required>
+                <option disabled selected value>Elige la más se aproxime</option>
+                            <option value="adelgazar">Adelgazar</option>
+                            <option value="energia">Ganar energía</option>
+                            <option value="mental">Mejora mental</option>
+                            <option value="fuerza">Ganar fuerza</option>
+                            <option value="otros">Otros</option>
+                          </select>
+                
+                <p> ¿Te gustaría tener un entrenador personal?</p>
+                <label for="si"> 
+                  <input id="si" value="si" type="radio" name="si-no">Si 
+                </label>
+                <label for="no">
+                  <input id="no" value="no" type="radio" name="si-no">No 
+                </label>
+                
+                
+                
+                  <p> ¿Qué otros deportes te gustaría realizar?</p>
+                <p>
+                <label for="futbol">
+                  <input id="futbol" type="checkbox" name="futbol" value="futbol"> Fútbol
+                  </label>
+                  </p>
+                
+                <p>
+                  <label for="tenis">
+                  <input id="tenis" type="checkbox" name="tenis" value="tenis"> Tenis
+                  </label>
+                </p>
+                
+                <p>
+                  <label for="natacion">
+                  <input id="natacion" type="checkbox" name="natacion" value="natacion"> Natacion
+                  </label>
+                  </p>
+                
+                
+                <p>
+                  <label for="marciales">
+                  <input id="marciales" type="checkbox" name="marciales" value="marciales"> Artes marciales
+                  </label>
+                  </p>
+                
+                <p>
+                  <label for="baloncesto">
+                  <input id="baloncesto" type="checkbox" name="baloncesto" value="baloncesto"> Baloncesto
+                  </label>
+                  </p>
+                
+                
+                <p>¿Quieres comentarnos algo más?</p>
+                <textarea id="comentario" class="input-textarea" name="comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+                
+                
+                
+                <p id="enviar">
+                  <button id="submit" type="submit">Enviar</button>
+                  </p>
+                
+        <div>
+          <input type="checkbox" id="checkbox" onchange="habilitarBoton()">
+          <label for="checkbox">Acepto los términos y condiciones</label>
+        </div>
+        
+          <button id="boton" type="submit" disabled>Enviar</button>
+          
+        
+        
+        </form>
+        
+        </div>
+    <footer class="footer-div">
+        <p class="footer-parragraph1">Copyright@2023</p>
+        <p>Descubre experiencias con infinitas posibilidades gracias a la <a href="https://es.wikipedia.org/wiki/Realidad_virtual">realidad virtual</a></p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
