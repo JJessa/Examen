@@ -10,11 +10,13 @@
   .bg-image {
       background-image: url(./images/virtual_home.jpg);   
       background-repeat: no-repeat; 
+      background-position: bottom;
     }
   
   .title-h1 {
     font-size: 2rem;
     text-align: center;
+    margin-top: 2rem;
   }
 
   .imagen-home {
@@ -37,5 +39,14 @@
   }
 
   .readMore {
+    background-color: #64034cd2; /* Green */
+    border: none;
+    border-radius: 15rem;
+    color: white;
+    padding: .8rem 1.8rem;
+    text-align: center;
+  }
+
+  .footer-div {
     
   }
