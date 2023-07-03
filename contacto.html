@@ -48,17 +48,16 @@
                 <input id="number" name="number" type="number" required placeholder="23" min="18" max="99">
                 </label></p>
                 
-                <p>¿Qué es lo que más te gusta de hacer ejercicio?</p>
-                <select id="dropdown" name="motivacion" class="form-control" required>
-                <option disabled selected value>Elige la más se aproxime</option>
-                            <option value="adelgazar">Adelgazar</option>
-                            <option value="energia">Ganar energía</option>
-                            <option value="mental">Mejora mental</option>
-                            <option value="fuerza">Ganar fuerza</option>
+                <p>¿Qué experiencia de realidad virtual te gustaría realizar?</p>
+                <select id="dropdown" name="experiencia" class="form-control" required>
+                <option disabled selected value>Elige una de las siguientes:</option>
+                            <option value="museo">Visita museo</option>
+                            <option value="futbol">Jugar un partido de LaLiga</option>
+                            <option value="espacio">Viaje a la luna</option>
                             <option value="otros">Otros</option>
                           </select>
                 
-                <p> ¿Te gustaría tener un entrenador personal?</p>
+                <p> ¿Has tenido alguna experiencia de realidad virtual anteriormente?</p>
                 <label for="si"> 
                   <input id="si" value="si" type="radio" name="si-no">Si 
                 </label>
@@ -66,37 +65,36 @@
                   <input id="no" value="no" type="radio" name="si-no">No 
                 </label>
                 
-                
-                
-                  <p> ¿Qué otros deportes te gustaría realizar?</p>
+                       
+                  <p> ¿Qué otras aventuras te gustaría vivir?</p>
                 <p>
-                <label for="futbol">
-                  <input id="futbol" type="checkbox" name="futbol" value="futbol"> Fútbol
+                <label for="scape">
+                  <input id="scape" type="checkbox" name="scape" value="scape"> Scape Room
                   </label>
                   </p>
                 
                 <p>
-                  <label for="tenis">
-                  <input id="tenis" type="checkbox" name="tenis" value="tenis"> Tenis
+                  <label for="viaje">
+                  <input id="viaje" type="checkbox" name="viaje" value="viaje"> Viaje en grupo
                   </label>
                 </p>
                 
                 <p>
-                  <label for="natacion">
-                  <input id="natacion" type="checkbox" name="natacion" value="natacion"> Natacion
+                  <label for="vino">
+                  <input id="vino" type="checkbox" name="vino" value="vino"> Cata de vinos
                   </label>
                   </p>
                 
                 
                 <p>
-                  <label for="marciales">
-                  <input id="marciales" type="checkbox" name="marciales" value="marciales"> Artes marciales
+                  <label for="glamping">
+                  <input id="glamping" type="checkbox" name="glamping" value="glamping"> Glamping
                   </label>
                   </p>
                 
                 <p>
-                  <label for="baloncesto">
-                  <input id="baloncesto" type="checkbox" name="baloncesto" value="baloncesto"> Baloncesto
+                  <label for="michelin">
+                  <input id="michelin" type="checkbox" name="michelin" value="michelin"> Restaurante Michelin
                   </label>
                   </p>
                 
@@ -106,12 +104,9 @@
                 
                 
                 
-                <p id="enviar">
-                  <button id="submit" type="submit">Enviar</button>
-                  </p>
                 
         <div>
-          <input type="checkbox" id="checkbox" onchange="habilitarBoton()">
+          <input type="checkbox" id="checkbox">
           <label for="checkbox">Acepto los términos y condiciones</label>
         </div>
         

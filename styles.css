@@ -1,4 +1,4 @@
-
+/* Estilos para el index.html */
 .navbar {
     font-size: larger;
   }
@@ -62,4 +62,26 @@
 
   a {
     color: #fff;
+  }
+
+  @media (max-width: 760px) {
+    .imagen-home {
+      width: 25rem;
+      height: 30rem;
+    }
+  
+    .parrafo-home {    
+      margin: 0 auto;
+      width: 75vw;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .parent-container {
+      display: block;
+    }
+    .parrafo-home {    
+        margin: 0 auto;
+        width: 75vw;
+    }
   }
