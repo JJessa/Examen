@@ -166,7 +166,18 @@
 textarea { 
     resize: none; 
 }
+.checkbox {
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
 #boton {
     margin-top: 2rem;
 }
 
+/* Estilos página de login */
+
+.login-center {
+    text-align: center;
+    margin-top: 1.5rem;
+}
