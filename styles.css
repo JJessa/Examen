@@ -16,4 +16,26 @@
     font-size: 2rem;
     text-align: center;
   }
-   
+
+  .imagen-home {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+  }
+
+  .parrafo-home {
+    width: 45vw;
+    padding: 2rem;
+  }
+
+  .readMore {
+    
+  }
