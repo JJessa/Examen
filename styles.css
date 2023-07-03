@@ -14,9 +14,16 @@
     }
   
   .title-h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 2rem;
+  }
+
+  .imagen-title {
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    margin: 0 auto;
   }
 
   .imagen-home {
@@ -38,7 +45,7 @@
     padding: 2rem;
   }
 
-  .readMore {
+  .boton {
     background-color: #7A005C; /* Green */
     border: none;
     border-radius: 15rem;
@@ -54,8 +61,22 @@
     background-position: bottom;
     color:#fff;
     padding: .2rem;
+    margin-top: 2rem;
   }
 
+  .goUp {
+    margin-left: 2rem;
+    padding: 2rem;
+    border: .5rem solid #7A005C;
+    border-radius: 3rem;
+    width:10vw;
+    text-align: center;
+   
+  }
+#up-div {
+    color: black;
+    text-decoration: none;;
+}
   .footer-parragraph1 {
     margin-top: 1rem;
   }
@@ -85,3 +106,43 @@
         width: 75vw;
     }
   }
+
+
+/* Estilos de contacto.html */
+
+.contenedor {
+    text-align: center;
+  }
+  
+  
+  .contenedor2 {
+    border: 2px solid black;
+    display: table;
+    padding: 30px; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  #enviar {
+    text-align: center;
+  }
+  
+  #submit {
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  .form-paragrapg {
+    margin-top: 1rem;
+  }
+
+  #title {
+    margin-top: 2rem;
+  }
+
+  textarea { 
+    resize: none; 
+}
+#boton {
+    margin-top: 2rem;
+}

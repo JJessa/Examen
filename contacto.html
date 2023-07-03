@@ -18,8 +18,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="contacto.html">Contacto</a>
                   <a class="nav-link" href="#">Login</a>
                 </div>
               </div>
@@ -27,37 +27,37 @@
           </nav>        
     </header>
 
-    <div class="contenedor">
+    <section class="contenedor">
         <h1 id="title">Formulario de contacto</h1>
         
         <p id="description">Si quieres más información, puedes ponerte en contacto con nosotros a través de este formulario:</p>
-        </div>
+    </section>
         
-        <div class="contenedor2">
+        <section class="contenedor2">
         <form action="/" method="get" id="survey-form">
             
-                <p><label id="name-label" for="name">Nombre
+                <p class="form-paragrapg"><label id="name-label" for="name">Nombre
                 <input id="name" name="name" type="text" required placeholder="Paco">
                 </label></p>
                 
-                <p><label id="email-label" for="email">Email 
+                <p class="form-paragrapg"><label id="email-label" for="email">Email 
                 <input id="email" name="email" type="email" required placeholder="Paco@paco.com">
                 </label></p>
                 
-                <p><label id="number-label" for="number">Edad
+                <p class="form-paragrapg"><label id="number-label" for="number">Edad
                 <input id="number" name="number" type="number" required placeholder="23" min="18" max="99">
                 </label></p>
                 
-                <p>¿Qué experiencia de realidad virtual te gustaría realizar?</p>
+                <p class="form-paragrapg">¿Qué experiencia de realidad virtual te gustaría realizar?</p>
                 <select id="dropdown" name="experiencia" class="form-control" required>
-                <option disabled selected value>Elige una de las siguientes:</option>
+                <option disabled selected value>Haz click aquí para elegir una opción:</option>
                             <option value="museo">Visita museo</option>
                             <option value="futbol">Jugar un partido de LaLiga</option>
                             <option value="espacio">Viaje a la luna</option>
                             <option value="otros">Otros</option>
                           </select>
                 
-                <p> ¿Has tenido alguna experiencia de realidad virtual anteriormente?</p>
+                <p class="form-paragrapg"> ¿Has tenido alguna experiencia de realidad virtual anteriormente?</p>
                 <label for="si"> 
                   <input id="si" value="si" type="radio" name="si-no">Si 
                 </label>
@@ -66,7 +66,7 @@
                 </label>
                 
                        
-                  <p> ¿Qué otras aventuras te gustaría vivir?</p>
+                  <p class="form-paragrapg"> ¿Qué otras aventuras te gustaría vivir?</p>
                 <p>
                 <label for="scape">
                   <input id="scape" type="checkbox" name="scape" value="scape"> Scape Room
@@ -100,7 +100,7 @@
                 
                 
                 <p>¿Quieres comentarnos algo más?</p>
-                <textarea id="comentario" class="input-textarea" name="comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+                <textarea id="comentario" class="input-textarea" name="comentario" cols="30" rows="10"" placeholder="Escribe tu comentario aquí..."></textarea>
                 
                 
                 
@@ -110,13 +110,15 @@
           <label for="checkbox">Acepto los términos y condiciones</label>
         </div>
         
-          <button id="boton" type="submit" disabled>Enviar</button>
+        
+          <button class="boton" id="boton" type="submit">Enviar</button>
+        
           
         
         
         </form>
         
-        </div>
+    </section>
     <footer class="footer-div">
         <p class="footer-parragraph1">Copyright@2023</p>
         <p>Descubre experiencias con infinitas posibilidades gracias a la <a href="https://es.wikipedia.org/wiki/Realidad_virtual">realidad virtual</a></p>

@@ -28,15 +28,41 @@
     </header>
     <span class="navbar-text" id="fecha"></span>
 
-    <h1 class="title-h1">Bienvenido a VirtualXperience</h1>
+    <h1 id="arriba" class="title-h1">Bienvenido a VirtualXperience</h1>
+    <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/virtualXperience_pintura.jpg" class="d-block w-75 mx-auto" alt="Persona con gafas de Realidad Virtual pintando un cuadro">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/virtualXperience-conecta.jpg" class="d-block w-100" alt="Persona con gafas de Realidad Virtual">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/virtualXperience-controla.jpg" class="d-block w-100" alt="Persona con mandos de Realidad Virtual">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
 
-    <div class="parent-container">
+    <section class="parent-container">
 
      <div class="images">
         <img class="imagen-home" src="./images/personas_realidad_virtual.jpg" alt="personas en una sala de museo con gafas de realidad virtual" id="image1">
         <p class="parrafo_imagen">* Pasa el ratón por encima para poder ver otra imagen</p>
        </div>
-         <div class="welcome">
+         <article class="welcome">
           <h2>Descubre nuestro mundo</h2>
            <p class="parrafo-home">
              Lorem ipsum dolor sit amet consectetur adipiscing elit nam, nec nisl lobortis laoreet ridiculus neque augue ante porta, tincidunt massa sollicitudin etiam primis iaculis pharetra. Rutrum orci eu curabitur senectus mus dictumst magnis neque, metus nostra sociis felis urna donec pellentesque tempor vulputate, auctor morbi lobortis mauris nec id faucibus. Volutpat quisque ridiculus sapien tristique mus auctor habitasse tempor, platea pellentesque leo nascetur orci mi tortor cum, elementum senectus vel hac aptent ullamcorper sollicitudin.
@@ -51,10 +77,11 @@
              Tellus dignissim duis turpis fermentum ullamcorper mus penatibus, cras volutpat dictum pretium platea aliquam enim, mauris pulvinar dapibus commodo sociosqu in. Placerat nascetur convallis est nostra fames elementum, fringilla ornare id lacus imperdiet, mus mauris vulputate nec erat. Neque curae ultrices maecenas eleifend urna vulputate nostra praesent potenti fames blandit commodo sociis, scelerisque himenaeos duis ornare phasellus placerat iaculis pharetra laoreet viverra posuere.
            </p>
            </span>
-           <button class="readMore" id="button_readMore">Leer más</button>
-         </div>
-       </div>
+           <button class="readMore boton" id="button_readMore">Leer más</button>
+        </article>
+        </section>
 
+       <div class="goUp"> <a id="up-div" href="#arriba">Ir arriba</a></div>
     <footer class="footer-div">
         <p class="footer-parragraph1">Copyright@2023</p>
         <p>Descubre experiencias con infinitas posibilidades gracias a la <a href="https://es.wikipedia.org/wiki/Realidad_virtual">realidad virtual</a></p>
