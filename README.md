@@ -9,7 +9,11 @@ En la home hay un carrusel con 3 fotos y y debajo una sección con foto y varios
 
 En la página de contacto hay un formulario con varios tipos de entrada de datos. 
 
-En la página de login hay un pequeño formulario que pide usuario y contraseña.  
+En la página de login hay un pequeño formulario que pide usuario y contraseña.    
+
+En JavaScript se ha añadido una funcionalidad en el botón de "Leer mas", al pulsarlo muestra un párrafo que estaba oculto, y el botón cambia a "Leer menos". Al pulsarlo de nuevo, vuelve a ocultar el párrafo.
+
+La foto situada a la izquierda de la home cambia a otra foto si se pasa el mouse por encima.
 
 
 Autor: Jessica Mosteiro  
