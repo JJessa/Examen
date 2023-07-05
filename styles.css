@@ -18,6 +18,9 @@
       background-position: bottom;
     }
   
+  #fecha {
+    padding: 2rem;
+  }
   .title-h1 {
     font-size: 4.2rem;
     text-align: center;
@@ -70,7 +73,14 @@
     font-family: 'Exo';
 
   }
-
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
   .footer-div {
     text-align: center;
     background-image: url(./images/virtual_home.jpg);
@@ -183,9 +193,27 @@ textarea {
     margin-top: 2rem;
 }
 
+#boton:disabled{
+  background-color: #7a005b91;
+}
 /* Estilos página de login */
-
+.contenedor2 {
+  margin-bottom: 7rem;
+}
 .login-center {
     text-align: center;
     margin-top: 1.5rem;
+}
+.login-form-div {
+  margin-top: 2rem;
+}
+
+.password-warning{
+  margin-top: 1.5rem;
+}
+
+#warnings {
+  color: red;
+  border: "0.1rem solid red";
+  padding: "0.5rem";
 }
