@@ -23,4 +23,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     }
      });
     
-     
+let image = document.querySelector("#image-eye");
+let contrasena = document.querySelector("#password")
+
+image.addEventListener('click', change);
+
+function change() {
+    if(contrasena.type == "password") {
+        contrasena.type = "text";
+        image.setAttribute('src','./images/ojoAbierto1.jpg');
+    }else {
+        contrasena.type = "password";
+        image.setAttribute('src','./images/ojoCerrado1.jpg');
+    }
+}
