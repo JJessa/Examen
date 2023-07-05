@@ -18,7 +18,7 @@
       background-position: bottom;
     }
   
-  #fecha {
+  .date {
     padding: 2rem;
   }
   .title-h1 {
@@ -147,7 +147,7 @@
 
 /* Estilos de contacto.html */
 
-.contenedor {
+  .contenedor {
     text-align: center;
     font-family: 'Exo';
 
@@ -210,6 +210,7 @@ textarea {
 
 .password-warning{
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 #image-eye {
