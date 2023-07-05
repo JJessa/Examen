@@ -22,6 +22,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
      window.location.href = "index.html";
     }
      });
+
+//Función que deja ver la contraseña cuando se clicka en la imagen del ojo
     
 let image = document.querySelector("#image-eye");
 let contrasena = document.querySelector("#password")

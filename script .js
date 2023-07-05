@@ -12,7 +12,7 @@ function habilitarBoton() {
   }
 
 
-//Función para leer más en el pararfo de la home
+//Función para leer más en el parrafo de la home
 
 let button_readMore = document.getElementById('button_readMore')
 let hiddenText = document.getElementById('hiddenText')
